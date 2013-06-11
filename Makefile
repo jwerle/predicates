@@ -7,7 +7,7 @@ install:
 	@component install
 
 test:
-	@mocha -R spec
+	@./node_modules/.bin/mocha -R spec
 
 clean:
 	@rm -rf node_modules/

@@ -19,7 +19,7 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "testling": {
-    "harness" :"mocha",
+    "harness": "mocha",
     "files": "test.js",
     "browsers": [
       "ie/6..latest",
@@ -37,5 +37,8 @@
       "iphone/6.0..latest",
       "android-browser/4.2..latest"
     ]
+  },
+  "devDependencies": {
+    "mocha": "~1.10.0"
   }
 }
