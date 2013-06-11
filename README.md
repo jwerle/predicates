@@ -3,6 +3,10 @@ predicates
 
 Common predicates for Node.js and the browser
 
+[![Build Status](https://travis-ci.org/jwerle/predicates.png)](https://travis-ci.org/jwerle/predicates)
+
+[![browser support](https://ci.testling.com/jwerle/predicates.png)](https://ci.testling.com/jwerle/predicates)
+
 ## install
 
 ***npm***
