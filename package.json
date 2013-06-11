@@ -19,6 +19,7 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "testling": {
+    "harness" :"mocha",
     "files": "test/*.js",
     "browsers": [
       "ie/6..latest",
