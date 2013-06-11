@@ -1,0 +1,19 @@
+{
+  "name": "predicates",
+  "repo": "jwerle/predicates",
+  "description": "Common predicates for Node.js and the browser",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "scripts": [
+    "index.js"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ]
+}
