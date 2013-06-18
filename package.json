@@ -22,8 +22,7 @@
     "harness": "mocha",
     "files": "test.js",
     "browsers": [
-      "ie/6..latest",
-      "firefox/3.6",
+      "ie/9..latest",
       "firefox/4",
       "firefox/17..latest",
       "firefox/nightly",

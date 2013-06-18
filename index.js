@@ -10,7 +10,7 @@ module.exports = predicate;
 predicate.predicate = predicate;
 function predicate (name, fn) {
   if (typeof name !== 'string') throw new TypeErrpr("expecting `string` as first argument");
-  else if (typeof fn !== 'function') throw new TypeErrpr("expecting `function` as first argument");
+  else if (typeof fn !== 'function') throw new TypeErrpr("expecting `function` as second argument");
   // construct name
   name = [
     'is', name.substr(0, 1).toUpperCase(), name.substr(1)
@@ -166,4 +166,17 @@ function isEmpty (a) {
     || (isNull(a))
     || (isUndefined(a))
     || (isBoolean(a) && a === false);
+});
+
+
+/**
+ * `RegExp` predicate
+ *
+ * @api public
+ * @param {Mixed} a
+ */
+
+var isRegExp = predicate('RegExp', 
+function isRegExp (a) {
+  return !!~{}.toString.call(a).toLowerCase().indexOf('regexp');
 });
